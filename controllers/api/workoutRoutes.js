@@ -45,7 +45,6 @@ router.put('/:id', ({params, body}, res) => {
     Workout.findOneAndUpdate(
         {_id: params.id},
         {$push: {exercises: body}},
-        // {upsert: true, useFindandModify: false}
     )
     .then(newExercise => {
         res.json(newExercise);
