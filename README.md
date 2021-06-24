@@ -44,4 +44,4 @@ The user should be able to:
 
 
 ## Deployed Application URL 
-[Fitness Tracker](https://fitness-tracker-app-deployed.herokuapp.com)
+[Fitness Tracker](https://fitness-tracker-app-deployed.herokuapp.com/)
